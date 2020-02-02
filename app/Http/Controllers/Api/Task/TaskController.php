@@ -8,6 +8,13 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
+    public function getAllTask(){
+
+        $data = Task::all();
+
+        return response()->json($data,200);
+
+    }
 
     public function store(Request $request){
 
