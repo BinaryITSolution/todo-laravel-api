@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +114,22 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XEOu79KBgMdjjtFXpWytxYvurS" />
@@ -122,7 +144,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -143,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580608006680</updated>
       <workItem from="1580608009108" duration="371000" />
-      <workItem from="1580608389890" duration="1904000" />
+      <workItem from="1580608389890" duration="4837000" />
     </task>
     <servers />
   </component>
@@ -155,18 +177,18 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2505" y="120" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580610070982" />
-    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1580608361618">
+    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1580621967854">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2660" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580608361618" />
+    <state x="2660" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580621967854" />
     <state x="2381" y="168" key="SettingsEditor" timestamp="1580608028928">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580608028928" />
-    <state x="2472" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580610084598">
+    <state x="2472" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580610612304">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580610084598" />
+    <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580610612304" />
     <state x="2575" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1580608403570">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
