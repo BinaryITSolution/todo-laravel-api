@@ -62,18 +62,27 @@ class TaskController extends Controller
 
         $task = Task::where('id','=',$request->id)->first();
 
-        if ($task->user_id == $request->user_id){
+        if (!empty($task)){
 
-            $task->delete();
+            if ($task->user_id == $request->user_id){
+
+                $task->delete();
+
+                return response()->json([
+                    'success' => 'Your task is deleted successfully.'
+                ],200);
+            }
 
             return response()->json([
-                'success' => 'Your task is deleted successfully.'
-            ],200);
+                'error' => 'Task does not belong to you.'
+            ],404);
+
         }
 
         return response()->json([
-            'error' => 'Task does not belong to you.'
+            'error' => 'Task does not exist.'
         ],404);
+
 
     }
 
