@@ -5,12 +5,15 @@ namespace App\Http\Controllers\Api\Task;
 use App\Http\Controllers\Controller;
 use App\Task;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class TaskController extends Controller
 {
     public function getAllTask(){
 
-        $data = Task::all();
+        $data = DB::table('tasks')
+            ->orderBy('id','desc')
+            ->get();
 
         return response()->json($data,200);
 
