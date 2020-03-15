@@ -35,8 +35,8 @@ class AuthController extends Controller
 
             $profile = new UserProfile();
             $profile->user_id = $user->id;
-            $profile->profile_image = $base_url."/storage/profile_image/default_profile.png";
-            $profile->profile_image_path = "/storage/profile_image/default_profile.png";
+            $profile->profile_image = $base_url."storage/profile_image/default_profile.png";
+            $profile->profile_image_path = "storage/profile_image/default_profile.png";
             $profile->bio = "Hey! this is my default bio. It's a great.";
             $profile->save();
         }
