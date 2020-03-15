@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
       <workItem from="1583726211074" duration="1021000" />
       <workItem from="1583913461394" duration="177000" />
       <workItem from="1583915054089" duration="36000" />
-      <workItem from="1584264020797" duration="4091000" />
+      <workItem from="1584264020797" duration="5823000" />
     </task>
     <servers />
   </component>
@@ -191,10 +191,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580608028928" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584267585244">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584269099086">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584267585244" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584269099086" />
     <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580642141474" />
     <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1583726567865">
       <screen x="0" y="0" width="1920" height="1050" />
