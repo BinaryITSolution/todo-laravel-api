@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Profile/UserProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Profile/UserProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -158,7 +160,21 @@
       <option name="presentableId" value="Default" />
       <updated>1580608006680</updated>
       <workItem from="1580608009108" duration="371000" />
-      <workItem from="1580608389890" duration="14482000" />
+      <workItem from="1580608389890" duration="16044000" />
+      <workItem from="1581327102181" duration="652000" />
+      <workItem from="1582128106741" duration="1281000" />
+      <workItem from="1582212935153" duration="724000" />
+      <workItem from="1582594893177" duration="701000" />
+      <workItem from="1583033654104" duration="1658000" />
+      <workItem from="1583115376391" duration="85000" />
+      <workItem from="1583580116054" duration="1276000" />
+      <workItem from="1583726211074" duration="1021000" />
+      <workItem from="1583913461394" duration="177000" />
+      <workItem from="1583915054089" duration="36000" />
+      <workItem from="1584264020797" duration="6587000" />
+      <workItem from="1584344719675" duration="1626000" />
+      <workItem from="1584755232830" duration="6371000" />
+      <workItem from="1584839642101" duration="1215000" />
     </task>
     <servers />
   </component>
@@ -170,21 +186,28 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2505" y="120" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580610070982" />
-    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1580621967854">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1583913636838">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1583913636838" />
     <state x="2660" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580621967854" />
     <state x="2381" y="168" key="SettingsEditor" timestamp="1580608028928">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580608028928" />
-    <state x="2472" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580640869591">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584271528686">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580640869591" />
-    <state x="2575" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1580608403570">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584271528686" />
+    <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580642141474" />
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1584841598888">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="2575" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580608403570" />
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584841598888" />
+    <state x="2575" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1582212940357" />
+    <state x="680" y="317" key="git4idea.merge.GitPullDialog" timestamp="1584271518808">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="680" y="317" key="git4idea.merge.GitPullDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584271518808" />
   </component>
 </project>
