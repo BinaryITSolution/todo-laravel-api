@@ -28,6 +28,7 @@ Route::group(['prefix' => 'users'],function (){
     Route::group(['middleware' =>'auth:api'],function (){
 
         Route::get('detail/{id}','Api\Profile\UserProfileController@getUserDetail');
+        Route::post('edit/user','Api\Profile\UserProfileController@edit');
 
     });
 });
