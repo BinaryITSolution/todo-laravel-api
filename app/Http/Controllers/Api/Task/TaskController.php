@@ -19,6 +19,17 @@ class TaskController extends Controller
 
     }
 
+    public function getTaskById($id){
+
+        $data = DB::table('tasks')
+            ->where('id','>', $id)
+            ->orderBy('id','asc')
+            ->get();
+
+        return response()->json($data,200);
+
+    }
+
     public function store(Request $request){
 
         $validateData = $request->validate([
@@ -71,9 +82,7 @@ class TaskController extends Controller
 
                 $task->delete();
 
-                return response()->json([
-                    'success' => 'Your task is deleted successfully.'
-                ],200);
+                return response()->json($task,200);
             }
 
             return response()->json([

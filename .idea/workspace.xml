@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Profile/UserProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Profile/UserProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Task/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Task/TaskController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,16 @@
       <workItem from="1584264020797" duration="6587000" />
       <workItem from="1584344719675" duration="1626000" />
       <workItem from="1584755232830" duration="6371000" />
-      <workItem from="1584839642101" duration="1215000" />
+      <workItem from="1584839642101" duration="1861000" />
+      <workItem from="1584871216095" duration="2517000" />
+      <workItem from="1584944245172" duration="41000" />
+      <workItem from="1586317994695" duration="21000" />
+      <workItem from="1587884334318" duration="1805000" />
+      <workItem from="1588174265799" duration="2108000" />
+      <workItem from="1588213697411" duration="7000" />
+      <workItem from="1588221967913" duration="688000" />
+      <workItem from="1588232071531" duration="64000" />
+      <workItem from="1588994800571" duration="1557000" />
     </task>
     <servers />
   </component>
@@ -200,11 +208,15 @@
     </state>
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584271528686" />
     <state x="2472" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1580642141474" />
-    <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1584841598888">
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1588232074362">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="655" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584841598888" />
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1588232074362" />
     <state x="2575" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1582212940357" />
+    <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584872973893">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584872973893" />
     <state x="680" y="317" key="git4idea.merge.GitPullDialog" timestamp="1584271518808">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
