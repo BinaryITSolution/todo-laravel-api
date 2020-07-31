@@ -36,6 +36,7 @@ class TaskController extends Controller
             'user_id' =>'required',
             'title' => 'required',
             'body' => 'required',
+            'note' => 'required',
             'status' => 'required'
         ]);
 
@@ -43,6 +44,7 @@ class TaskController extends Controller
         $data->user_id = $request->user_id;
         $data->title = $request->title;
         $data->body = $request->body;
+        $data->note = $request->note;
         $data->status = $request->status;
         $data->save();
 
@@ -65,6 +67,7 @@ class TaskController extends Controller
         $data->user_id = $request->user_id;
         $data->title = $request->title;
         $data->body = $request->body;
+        $data->note = $request->note;
         $data->status = $request->status;
         $data->save();
 
