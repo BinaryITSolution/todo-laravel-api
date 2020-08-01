@@ -46,6 +46,7 @@ Route::group(['prefix' => 'task'],function (){
 
 Route::group(['prefix' => 'no_auth'],function (){
     Route::get('get_all_task','Api\Task\TaskController@getAllTask');
+    Route::get('get_task/{id}','Api\Task\TaskController@getTask');
     Route::get('get_task_by_id/{id}','Api\Task\TaskController@getTaskById');
     Route::post('add_task','Api\Task\TaskController@store');
     Route::post('update_task','Api\Task\TaskController@update');
