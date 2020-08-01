@@ -3168,6 +3168,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3675676b6a47f3e71d3ab10bcf53fb9239eb77e6",
                 "reference": "3675676b6a47f3e71d3ab10bcf53fb9239eb77e6",
+
                 "shasum": ""
             },
             "require": {
@@ -3224,6 +3225,7 @@
                 }
             ],
             "time": "2020-07-23T09:48:09+00:00"
+
         },
         {
             "name": "symfony/http-kernel",
@@ -3342,6 +3344,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/149fb0ad35aae3c7637b496b38478797fa6a7ea6",
                 "reference": "149fb0ad35aae3c7637b496b38478797fa6a7ea6",
+
                 "shasum": ""
             },
             "require": {
@@ -3391,6 +3394,7 @@
                 "mime",
                 "mime-type"
             ],
+
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3406,6 +3410,7 @@
                 }
             ],
             "time": "2020-07-23T10:04:31+00:00"
+
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3562,6 +3567,7 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
+
             "version": "v1.18.0",
             "source": {
                 "type": "git",
@@ -3572,12 +3578,14 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
                 "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "symfony/polyfill-intl-normalizer": "^1.10",
                 "symfony/polyfill-php70": "^1.10",
+
                 "symfony/polyfill-php72": "^1.10"
             },
             "suggest": {
@@ -3586,11 +3594,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
+
                 }
             },
             "autoload": {
@@ -3629,6 +3639,7 @@
                 "portable",
                 "shim"
             ],
+
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3738,6 +3749,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
+
                 "shasum": ""
             },
             "require": {
@@ -3749,11 +3761,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
+
                 }
             },
             "autoload": {
@@ -3787,6 +3801,7 @@
                 "portable",
                 "shim"
             ],
+
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3965,6 +3980,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
                 "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+
                 "shasum": ""
             },
             "require": {
@@ -3973,11 +3989,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+
                     "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
+
                 }
             },
             "autoload": {
@@ -4013,6 +4031,7 @@
                 "portable",
                 "shim"
             ],
+
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -4028,6 +4047,7 @@
                 }
             ],
             "time": "2020-07-14T12:35:20+00:00"
+
         },
         {
             "name": "symfony/polyfill-php80",
