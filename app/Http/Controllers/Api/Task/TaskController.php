@@ -9,6 +9,16 @@ use Illuminate\Support\Facades\DB;
 
 class TaskController extends Controller
 {
+    public function allTask(){
+
+        $data = DB::table('tasks')
+            ->orderBy('id','desc')
+            ->paginate(25);
+
+        return response()->json($data,200);
+
+    }
+
     public function getAllTask(){
 
         $data = DB::table('tasks')
