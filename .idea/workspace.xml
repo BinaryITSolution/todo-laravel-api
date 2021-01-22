@@ -140,9 +140,11 @@
       <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XEOu79KBgMdjjtFXpWytxYvurS" />
@@ -218,7 +220,8 @@
       <workItem from="1610250604987" duration="532000" />
       <workItem from="1610353842159" duration="26000" />
       <workItem from="1611071557693" duration="619000" />
-      <workItem from="1611137392281" duration="650000" />
+      <workItem from="1611137392281" duration="2852000" />
+      <workItem from="1611278796540" duration="63000" />
     </task>
     <servers />
   </component>
