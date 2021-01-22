@@ -13,7 +13,7 @@ class TaskController extends Controller
 
         $data = DB::table('tasks')
             ->orderBy('id','desc')
-            ->paginate(25);
+            ->paginate(10);
 
         return response()->json($data,200);
 
