@@ -29,6 +29,17 @@ class TaskController extends Controller
 
     }
 
+    public function searchTask($query){
+
+        $data = DB::table('tasks')
+            ->where('title',$query)
+            ->orderBy('id','desc')
+            ->get();
+
+        return response()->json($data,200);
+
+    }
+
     public function getTask($id){
 
         $data = DB::table('tasks')

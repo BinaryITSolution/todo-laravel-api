@@ -60,4 +60,5 @@ Route::group(['prefix' => 'no_auth'],function (){
     Route::post('add_task','Api\Task\TaskController@store');
     Route::post('update_task','Api\Task\TaskController@update');
     Route::post('delete_task','Api\Task\TaskController@destroy');
+    Route::get('search/{query}','Api\Task\TaskController@searchTask');
 });
