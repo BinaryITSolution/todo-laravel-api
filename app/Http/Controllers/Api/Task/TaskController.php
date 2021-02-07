@@ -32,7 +32,7 @@ class TaskController extends Controller
     public function searchTask($query){
 
         $data = DB::table('tasks')
-            ->where('title','LIKE', '%'.$query.'%')
+            ->where('title','like', $query.'%')
             ->orderBy('id','desc')
             ->get();
 
