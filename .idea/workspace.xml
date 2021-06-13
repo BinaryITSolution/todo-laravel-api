@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="" />
+    <list default="true" id="d664e502-4aa5-4f51-8bb8-7627a1da96d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,10 +243,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592640973990" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1596254809129">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1596253759268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1596254809129" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1596253759268" />
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1596208948794" />
     <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589179660649">
       <screen x="0" y="0" width="1920" height="1050" />

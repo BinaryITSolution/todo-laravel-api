@@ -9,9 +9,30 @@ use Illuminate\Support\Facades\DB;
 
 class TaskController extends Controller
 {
+    public function allTask(){
+
+        $data = DB::table('tasks')
+            ->orderBy('id','desc')
+            ->paginate(10);
+
+        return response()->json($data,200);
+
+    }
+
     public function getAllTask(){
 
         $data = DB::table('tasks')
+            ->orderBy('id','desc')
+            ->get();
+
+        return response()->json($data,200);
+
+    }
+
+    public function searchTask($query){
+
+        $data = DB::table('tasks')
+            ->where('title','like', $query.'%')
             ->orderBy('id','desc')
             ->get();
 
