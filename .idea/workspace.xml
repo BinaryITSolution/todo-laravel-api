@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88fcb1e0-f070-407a-b58d-0a4754e97c3c" name="Default Changelist" comment="">
+    <list default="true" id="d664e502-4aa5-4f51-8bb8-7627a1da96d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,11 +140,9 @@
       <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
-      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XEOu79KBgMdjjtFXpWytxYvurS" />
@@ -163,7 +161,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../easySales" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -171,7 +168,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,32 +211,11 @@
       <workItem from="1593136223397" duration="609000" />
       <workItem from="1593142310184" duration="49000" />
       <workItem from="1596195017077" duration="1950000" />
-      <workItem from="1596513033632" duration="7000" />
-      <workItem from="1609727205684" duration="469000" />
-      <workItem from="1609745706956" duration="349000" />
-      <workItem from="1609827320222" duration="8000" />
-      <workItem from="1610250604987" duration="532000" />
-      <workItem from="1610353842159" duration="26000" />
-      <workItem from="1611071557693" duration="619000" />
-      <workItem from="1611137392281" duration="2852000" />
-      <workItem from="1611278796540" duration="63000" />
-      <workItem from="1611290918650" duration="2803000" />
-      <workItem from="1611628144450" duration="657000" />
-      <workItem from="1612686523252" duration="3624000" />
-      <workItem from="1612706820107" duration="1004000" />
-      <workItem from="1612775424647" duration="42000" />
-      <workItem from="1623294229852" duration="1446000" />
-      <workItem from="1623402683744" duration="1421000" />
-      <workItem from="1623404473480" duration="616000" />
-      <workItem from="1623405111087" duration="1070000" />
-      <workItem from="1623468824246" duration="452000" />
-      <workItem from="1623469326684" duration="1729000" />
-      <workItem from="1623551498064" duration="1642000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -253,5 +228,29 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592639138286">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592639138286" />
+    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1592794683143">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589016560983" />
+    <state x="2660" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592794683143" />
+    <state x="2381" y="170" key="SettingsEditor" timestamp="1592640973990">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2381" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592640973990" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1596253759268">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1596253759268" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1596208948794" />
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589179660649">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589179660649" />
   </component>
 </project>
